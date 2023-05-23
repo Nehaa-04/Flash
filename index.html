@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAV</title>
+
+    <style>
+        body {
+  background-image: url('https://img.freepik.com/free-vector/polygonal-background_53876-60251.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+    }
+        h2 {
+            color: #EE7600;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        label {
+        display: inline-block;
+        width: 505px;
+        text-align:left;
+        }
+        form{
+            text-align: center;
+            margin:auto;
+            border-style: solid;
+            border-width:3px;
+            border-color:orange;
+            width:600px;
+            height:450px;
+        }
+        input{
+            width: 500px;
+            height:30px;
+            margin-bottom: 20px;
+        }
+        button{
+            background-color:orange;
+            color:white;
+            border:155cm;
+            width:510px;
+            height:30px;
+            margin-top: 2px;
+        }
+    </style>
+
+    </head>
+</head>
+
+<body>
+    <form action="#" onsubmit="onsignup(event)">
+  <h2> Book a call </h2>
+  <p> Book a call slot and our representative will call you within 1hr of selected time</p>
+
+  <hr width="95%">
+
+  <label id="name"> Name </label> <br>
+  <input type="text" id="name" name="username" required> <br>
+
+  <label id="email"> Email </label> <br>
+  <input type="email" id="email" name="email" required>  <br>
+
+  <label id="phone"> Phone </label> <br>
+  <input type="text" id="phone" name="phone" required>  <br>
+
+  <label> Time for Call: </label> <br>
+  <input type="date" style="width:245px" id="date" name="date" required>
+  <input type="time" style="width:250px" id="time" name="time" required>
+  <br>
+  <button>GET A CALL</button>    
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
